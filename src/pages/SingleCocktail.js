@@ -156,7 +156,7 @@ export default function SingleCocktail() {
               })}
             </p>
             <p>
-              <span className='drink-data'>instructons :</span> {instructions}
+              <span className='drink-data'>instructions :</span> {instructions}
             </p>
             <p>
               <span className='drink-data'>measures :</span>
