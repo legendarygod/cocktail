@@ -152,7 +152,11 @@ export default function SingleCocktail() {
             <p>
               <span className='drink-data'>ingredients :</span>
               {ingredients.map((item, index) => {
-                return item ? <span key={index}> {item}</span> : null
+                return item ? 
+                <span className='btn btn-primary' key={index}>
+                  <Link to={`/ingredient/${item}`}>{item}</Link> 
+                </span> 
+                : null
               })}
             </p>
             <p>
